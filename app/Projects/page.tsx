@@ -1,11 +1,10 @@
-import React from "react";
-
-const ProjectsPage = () => {
+export default function ProjectsPage() {
   return (
-    <main className="h-[4000px] pt-[60px] bg-[#212121]">
-      <h1 className="text-white">ProjectsPage</h1>;
+    <main className="pt-[60px] bg-[#212121] min-h-[4000px]">
+      {/* Main Contatiner */}
+      <div className="container mx-auto max-w-[600px] pt-6 px-3">
+        <h1 className="text-white px-6">ProjectsPage</h1>
+      </div>
     </main>
   );
-};
-
-export default ProjectsPage;
+}
