@@ -5,9 +5,9 @@ export default function Home() {
   return (
     <main className="pt-[60px] bg-[#212121] min-h-[4000px]">
       {/* Main Contatiner */}
-      <div className="container mx-auto max-w-[600px] px-3">
+      <div className="container mx-auto max-w-[600px] px-3 pt-6">
         {/* Hero Card w/Image*/}
-        <div className="flex flex-col pt-6 text-white px-6 items-center ">
+        <div className="flex flex-col  px-6 text-white  items-center ">
           <Image
             className="rounded-t-lg"
             src={heroImage}
@@ -24,7 +24,7 @@ export default function Home() {
           </div>
         </div>
         {/* Detailed Info */}
-        <div className="text-white text-3xl text-nowrap flex justify-between px-2">
+        <div className="text-white text-3xl text-nowrap flex justify-between px-6">
           <h1 className=" font-extrabold"> Brayden Annan</h1>
         </div>
       </div>
