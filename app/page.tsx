@@ -1,24 +1,31 @@
+import Image from "next/image";
+import heroImage from "@/public/heroBanner.png";
+
 export default function Home() {
   return (
-    <main className="pt-[60px] bg-[#212121] min-h-screen">
-      <div className="flex flex-col mx-3 sm:mx-12  md:mx-32 lg:mx-54 xl:mx-96 pt-6 text-white justify-end">
-        {/* Greetting Card */}
-        <div className="bg-[#333333] p-6 px-16 mb-6 rounded-lg min-w-[300px]">
-          <h1 className="text-center line-clamp-3 sm:text-base">
-            {" "}
-            Hello, I'm a mechatronics and computer science student from
-            Brisbane!{" "}
-          </h1>
-        </div>
-        {/* More Detailed Greeting */}
-        <div className="flex flex-col justify-start">
-          <div>
-            <h1 className="font-extrabold text-3xl text-nowrap">
+    <main className="pt-[60px] bg-[#212121] min-h-[4000px]">
+      {/* Main Contatiner */}
+      <div className="container mx-auto max-w-[600px] px-3">
+        {/* Hero Card w/Image*/}
+        <div className="flex flex-col pt-6 text-white px-6 items-center ">
+          <Image
+            className="rounded-t-lg"
+            src={heroImage}
+            layout="responsive"
+            alt="Hero Image"
+            quality={100}
+          />
+          <div className="bg-[#333333] p-6 px-16 mb-3 rounded-b-lg ">
+            <h1 className="text-center text-sm line-clamp-3 sm:text-base">
               {" "}
-              Brayden Annan
+              Hello, I'm a mechatronics and computer science student from
+              Brisbane!{" "}
             </h1>
           </div>
-          <div> </div>
+        </div>
+        {/* Detailed Info */}
+        <div className="text-white text-3xl text-nowrap flex justify-between px-2">
+          <h1 className=" font-extrabold"> Brayden Annan</h1>
         </div>
       </div>
     </main>
