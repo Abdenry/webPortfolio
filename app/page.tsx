@@ -15,7 +15,7 @@ export default function Home() {
             alt="Hero Image"
             quality={100}
           />
-          <div className="bg-[#333333] p-6 px-16 mb-3 rounded-b-lg ">
+          <div className="bg-[#333333] p-6 px-12 mb-3 rounded-b-lg ">
             <h1 className="text-center text-sm line-clamp-3 sm:text-base">
               {" "}
               Hello, I'm a mechatronics and computer science student from
