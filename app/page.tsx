@@ -1,5 +1,5 @@
 import Image from "next/image";
-import heroImage from "@/public/heroBanner.png";
+import heroImage from "@/public/gifTest.gif";
 
 export default function Home() {
   return (
