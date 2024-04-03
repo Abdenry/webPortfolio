@@ -3,7 +3,7 @@ import heroImage from "@/public/gifTest.gif";
 
 export default function Home() {
   return (
-    <main className="pt-[60px] bg-[#212121] min-h-[4000px]">
+    <main className="py-[60px] bg-[#212121] min-h-screen">
       {/* Main Contatiner */}
       <div className="container mx-auto max-w-[600px] px-3 pt-6">
         {/* Hero Card w/Image*/}
