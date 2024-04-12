@@ -15,8 +15,7 @@ export default function ProjectsPage() {
             <h1 className="border-b w-auto font-extrabold sm:text-lg">
               Projects
             </h1>
-            <p className=" my-5">
-              {" "}
+            <p className=" mb-10">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Viverra mauris in aliquam sem fringilla ut morbi tincidunt.
