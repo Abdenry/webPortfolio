@@ -1,0 +1,27 @@
+Project Portfolio:
+
+TODO:
+
+    1. Create custom gif for landing page
+    2. Add resume information to landing page
+    	|->	Review as resume information contains sensitive information.
+    		|->	Maybe look at detailing a more general overview such as education, working experience and favourite projects?
+    		|->	Possibly keep the resumse formal and the website more informal
+    			|->	This way I can discuss less relevant information such as hobbies and pastimes to provide a general vibe for personality
+    3. Create more projects to place on page:
+    	|->	Custom PC case for tucker (Mechanical Design)
+    	|-> Custom LED strips with controller (Software Design, Electrical Design, Mechanical Design)
+    	|-> CAB320 problem solving AI (Software Design)
+    		|->	Not video worthy but maybe just a small blog post?
+    	|->
+    4. Add navigation path highlighting on navBar
+
+Future Implementations/Changes:
+
+    1. Project Page
+    	a. Tags on projects
+    	b. Filter to sort projects based on tags
+    2. Navigation Bar
+    	a. Search Bar to filter for details
+    		|->	Maybe later if enough projects warrant the effort to implement it
+    3. Review design layout
