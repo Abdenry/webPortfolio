@@ -3,11 +3,11 @@ import heroImage from "@/public/gifTest.gif";
 
 export default function Home() {
   return (
-    <main className="py-[60px] bg-[#212121] min-h-screen">
+    <main className="py-[60px] bg-[#212121] min-h-screen min-w-screen">
       {/* Main Contatiner */}
       <div className="container mx-auto max-w-[600px] px-3 pt-6">
-        {/* Hero Card w/Image*/}
-        <div className="flex flex-col  px-6 text-white  items-center ">
+        {/* Hero Card w/Gif*/}
+        <div className="flex flex-col  px-6 text-white  items-center mb-10">
           <Image
             className="rounded-t-lg"
             src={heroImage}
@@ -16,7 +16,7 @@ export default function Home() {
             quality={100}
           />
           <div className="bg-[#333333] p-6 px-12 mb-3 rounded-b-lg ">
-            <h1 className="text-center text-sm line-clamp-3 sm:text-base">
+            <h1 className="text-center line-clamp-3">
               {" "}
               Hello, I'm a mechatronics and computer science student from
               Brisbane!{" "}
@@ -24,8 +24,51 @@ export default function Home() {
           </div>
         </div>
         {/* Detailed Info */}
-        <div className="text-white text-3xl text-nowrap flex justify-between px-6">
-          <h1 className=" font-extrabold"> Brayden Annan</h1>
+        <div className="text-white flex-col justify-between px-6">
+          {/* Who Am I? */}
+          <div className="mb-10">
+            <h1 className=" font-extrabold border-b-2 border-[#333333] text-2xl">
+              Who Am I?
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Viverra mauris in aliquam sem fringilla ut morbi tincidunt.
+            </p>
+          </div>
+          {/* My Favourite Projects */}
+          <div className="mb-10">
+            <h1 className=" font-extrabold border-b-2 border-[#333333] text-2xl ">
+              My Favourite Projects
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Viverra mauris in aliquam sem fringilla ut morbi tincidunt.
+            </p>
+          </div>
+          {/* What have I done? */}
+          <div className="mb-10">
+            <h1 className=" font-extrabold border-b-2 border-[#333333] text-2xl ">
+              How Did I Learn?
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Viverra mauris in aliquam sem fringilla ut morbi tincidunt.
+            </p>
+          </div>
+          {/* What experience do you have? */}
+          <div className="mb-10">
+            <h1 className=" font-extrabold border-b-2 border-[#333333] text-2xl ">
+              What Experience Do I Have?
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Viverra mauris in aliquam sem fringilla ut morbi tincidunt.
+            </p>
+          </div>
         </div>
       </div>
     </main>
