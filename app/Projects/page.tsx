@@ -27,14 +27,16 @@ export default function ProjectsPage() {
             target="_blank"
             className="group"
           >
-            <div className="flex-col bg-[#444444] min-h-[150px] rounded-lg mb-5 text-white px-2 group-hover:scale-105">
+            <div className="flex-col bg-[#444444] min-h-[150px] rounded-lg mb-5 text-white px-2 group-hover:scale-105 ">
               <h1 className="py-2 text-center">Sample Collecting Robot</h1>
               <div className="sm:flex sm:pb-2 ">
-                <Image
-                  className="rounded-md max-w-[272px] max-h-[153px]"
-                  src={project1}
-                  alt="Project 1 Image"
-                />
+                <div className="flex justify-center">
+                  <Image
+                    className="rounded-md max-w-[272px] max-h-[153px] "
+                    src={project1}
+                    alt="Project 1 Image"
+                  />
+                </div>
                 <p className="p-2 text-balance text-center text-sm sm:text-start">
                   In 2022, I completed the EGB320: Mechatronics Design 2 unit
                   and built a prototype mars rover! The mission was to search,
