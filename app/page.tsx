@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="py-[60px] bg-[#212121] min-h-screen min-w-screen">
       {/* Main Contatiner */}
-      <div className="container mx-auto max-w-[600px] px-3 pt-6">
+      <div className="container mx-auto max-w-[700px] px-3 pt-6">
         {/* Hero Card w/Gif*/}
         <div className="flex flex-col  px-6 text-white  items-center mb-10">
           <Image

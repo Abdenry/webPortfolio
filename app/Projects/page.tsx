@@ -1,4 +1,6 @@
 import Image from "next/image";
+import ProjectCard from "../components/ProjectCard";
+
 import project1 from "@/public/egb320Project.png";
 import project2 from "@/public/simpleGradient.png";
 import project3 from "@/public/simpleGradient.png";
@@ -8,7 +10,7 @@ export default function ProjectsPage() {
   return (
     <main className="py-[60px] bg-[#212121] min-h-screen">
       {/* Main Contatiner */}
-      <div className="container mx-auto max-w-[600px] pt-6 px-3">
+      <div className="container mx-auto max-w-[700px] pt-6 px-3">
         <div className="px-6">
           {/* Page Description */}
           <div className="text-white">
@@ -22,48 +24,57 @@ export default function ProjectsPage() {
             </p>
           </div>
           {/* Project Card 1 */}
-          <a
-            href="https://youtu.be/Dr_o5N65tek?t=120"
-            target="_blank"
-            className="group"
-          >
-            <div className="flex-col bg-[#444444] min-h-[150px] rounded-lg mb-5 text-white px-2 group-hover:scale-105 ">
-              <h1 className="py-2 text-center">Sample Collecting Robot</h1>
-              <div className="sm:flex sm:pb-2 ">
-                <div className="flex justify-center">
-                  <Image
-                    className="rounded-md max-w-[272px] max-h-[153px] "
-                    src={project1}
-                    alt="Project 1 Image"
-                  />
+          <div className="sm:flex mb-5">
+            <a
+              href="https://youtu.be/Dr_o5N65tek?t=120"
+              target="_blank"
+              className="group"
+            >
+              <div className="flex-col bg-[#444444] min-h-[150px] rounded-lg text-white px-2 group-hover:scale-105 sm:mr-[10px] mb-5 sm:mb-0">
+                <h1 className="py-2 text-center">Sample Collecting Robot</h1>
+                <div className="sm:pb-2 ">
+                  <div className="flex justify-center">
+                    <Image
+                      className="rounded-md max-w-[272px] max-h-[153px] "
+                      src={project1}
+                      alt="Project 1 Image"
+                    />
+                  </div>
+                  <p className="p-2 text-balance text-center text-sm sm:text-start">
+                    In 2022, I completed the EGB320: Mechatronics Design 2 unit
+                    and built a prototype mars rover! The mission was to search,
+                    collect and return "moon rocks" scattered around the
+                    environment.
+                  </p>
                 </div>
-                <p className="p-2 text-balance text-center text-sm sm:text-start">
-                  In 2022, I completed the EGB320: Mechatronics Design 2 unit
-                  and built a prototype mars rover! The mission was to search,
-                  collect and return "moon rocks" scattered around the
-                  environment.
-                </p>
               </div>
-            </div>
-          </a>
-          {/* Project Card 2 */}
-          <a href="" className="group">
-            <div className="flex-col bg-[#444444] min-h-[150px] rounded-lg mb-5 text-white px-2 group-hover:scale-105">
-              <h1 className="py-2 text-center">Project 2</h1>
-              <div className="sm:flex sm:pb-2">
-                <Image
-                  className=" rounded-md max-w-[272px] max-h-[153px]"
-                  src={project2}
-                  alt="Project 1 Image"
-                />
-                <p className="p-2 text-center ">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Viverra mauris in aliquam sem fringilla ut morbi tincidunt.
-                </p>
+            </a>
+            {/* Project Card 2 */}
+            <a
+              href="https://youtu.be/Dr_o5N65tek?t=120"
+              target="_blank"
+              className="group"
+            >
+              <div className="flex-col bg-[#444444] min-h-[150px] rounded-lg text-white px-2 group-hover:scale-105 sm:ml-[10px]">
+                <h1 className="py-2 text-center">Project 2</h1>
+                <div className="sm:pb-2 ">
+                  <div className="flex justify-center">
+                    <Image
+                      className="rounded-md max-w-[272px] max-h-[153px] "
+                      src={project1}
+                      alt="Project 1 Image"
+                    />
+                  </div>
+                  <p className="p-2 text-balance text-center text-sm sm:text-start">
+                    In 2022, I completed the EGB320: Mechatronics Design 2 unit
+                    and built a prototype mars rover! The mission was to search,
+                    collect and return "moon rocks" scattered around the
+                    environment.
+                  </p>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </div>
           {/* Project Card 3 */}
           <a href="" className="group">
             <div className="flex-col bg-[#444444] min-h-[150px] rounded-lg mb-5 text-white px-2 group-hover:scale-105">
@@ -85,25 +96,10 @@ export default function ProjectsPage() {
             </div>
           </a>
           {/* Project Card 4 */}
-          <a href="" className="group">
-            <div className="flex-col bg-[#444444] min-h-[150px] rounded-lg mb-5 text-white px-2 group-hover:scale-105">
-              <h1 className="py-2 text-center">Project 4</h1>
-              <div className="sm:flex sm:pb-2">
-                <Image
-                  className=" rounded-md max-w-[272px] max-h-[153px]"
-                  src={project4}
-                  alt="Project 1 Image"
-                  width={272}
-                  height={153}
-                />
-                <p className="p-2 text-center">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Viverra mauris in aliquam sem fringilla ut morbi tincidunt.
-                </p>
-              </div>
-            </div>
-          </a>
+          <ProjectCard
+            title="It work now?"
+            link="https://youtu.be/Dr_o5N65tek?t=120"
+          />
         </div>
       </div>
     </main>
