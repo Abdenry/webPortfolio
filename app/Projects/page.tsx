@@ -23,17 +23,6 @@ export default function ProjectsPage() {
                 and return "moon rocks" scattered around the environment.'
         external={true}
       />
-
-      {/* Project: Testing */}
-      <ProjectCard
-        title="It work now?"
-        link="/"
-        img="/egb320Project.png"
-        desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra
-            mauris in aliquam sem fringilla ut morbi tincidunt."
-        external={false}
-      />
     </main>
   );
 }
