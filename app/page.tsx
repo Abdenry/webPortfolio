@@ -7,7 +7,7 @@ export default function Home() {
       {/* Hero Card w/Gif*/}
       <div className="flex flex-col  px-6 text-white  items-center mb-10">
         <Image
-          className="rounded-t-lg"
+          className="rounded-t-lg max-w-[604px]"
           src={heroImage}
           layout="responsive"
           alt="Hero Image"

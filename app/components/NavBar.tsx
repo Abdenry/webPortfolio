@@ -10,7 +10,7 @@ const NavBar = () => {
   return (
     <header>
       <div className="bg-opacity-80 backdrop-blur-md w-full h-60px fixed border-b border-[#b1b1b118] z-50">
-        <div className="flex text-white justify-evenly p-4 container mx-auto max-w-[1100px]">
+        <div className="flex text-white justify-evenly p-4 mx-auto max-w-[1000px]">
           {/* Name Div with Logo */}
           <div className="">
             <Link
