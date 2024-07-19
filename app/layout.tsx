@@ -9,7 +9,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className=" overscroll-none">
       <body className={`${inter.className} antialiased`}>
         <NavBar />
         <main className="py-[60px] bg-[#212121] min-h-screen">
