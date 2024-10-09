@@ -5,13 +5,29 @@ export default function ProjectsPage() {
     <main className="px-6">
       {/* Page Description */}
       <div className="text-white">
-        <h1 className="border-b w-auto font-extrabold sm:text-lg">Projects</h1>
+        <h1 className="border-b-2 border-[#333333] w-auto font-extrabold sm:text-2xl mb-2">
+          Projects
+        </h1>
         <p className=" mb-10">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra
-          mauris in aliquam sem fringilla ut morbi tincidunt.
+          Below is a list of projects I have either built myself or in
+          colloboration with others. Click on a project that interests you to
+          learn more about it! If you are interested in the the code written for
+          these projects I more than likely have a GitHub repository for it,
+          make sure to check it out by clicking the GitHub link at the top of
+          the screen.
         </p>
       </div>
+
+      {/* Project: Tazer Cards */}
+      <ProjectCard
+        title="Tazer Cards"
+        link="https://youtu.be/0fpzKOLWwhQ"
+        img="/tazerCards.png"
+        desc="I made a device that would convert theoretical damage taken in 
+                popular card games into tangible consequences. Achieved using the 
+                Arduino Nano, a custom health tracker written in python, and a modified TENS machine."
+        external={true}
+      />
 
       {/* Project: Sample Collecting Robot */}
       <ProjectCard
