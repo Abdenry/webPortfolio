@@ -24,7 +24,9 @@ const ProjectCard: React.FC<CardProps> = ({
       rel={external ? "noopener noreferrer" : ""}
     >
       <div className="flex-col bg-[#444444] min-h-[150px] rounded-lg mb-5 text-white px-2 group-hover:scale-105">
-        <h1 className="py-2 text-center">{title}</h1>
+        <h1 className="my-2 text-center text-lg border-b-2 border-[#707070]">
+          {title}
+        </h1>
         <div className="sm:flex sm:pb-2">
           <Image
             className=" rounded-md max-w-[272px] max-h-[153px]"
@@ -33,7 +35,7 @@ const ProjectCard: React.FC<CardProps> = ({
             width={272}
             height={153}
           />
-          <p className="p-2 text-left">{desc}</p>
+          <p className="px-2 text-center">{desc}</p>
         </div>
       </div>
     </a>
