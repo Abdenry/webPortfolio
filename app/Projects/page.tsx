@@ -2,7 +2,7 @@ import ProjectCard from "../components/ProjectCard";
 
 export default function ProjectsPage() {
   return (
-    <main className="px-6">
+    <main>
       {/* Page Description */}
       <div className="text-white">
         <h1 className="border-b-2 border-[#333333] w-auto font-extrabold sm:text-2xl mb-2">
