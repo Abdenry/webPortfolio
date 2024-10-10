@@ -23,18 +23,20 @@ const ProjectCard: React.FC<CardProps> = ({
       className="group"
       rel={external ? "noopener noreferrer" : ""}
     >
-      <div className="flex-col bg-[#444444] min-h-[150px] rounded-lg mb-5 text-white px-2 group-hover:scale-105">
+      <div className="flex-col bg-[#444444] min-h-[150px] rounded-lg mb-3 text-white px-2 group-hover:scale-105">
         <h1 className="my-2 text-center text-lg border-b-2 border-[#707070]">
           {title}
         </h1>
-        <div className="sm:flex sm:pb-2">
-          <Image
-            className=" rounded-md max-w-[272px] max-h-[153px]"
-            src={img} // Image should be 1280 x 720
-            alt="Project 1 Image"
-            width={272}
-            height={153}
-          />
+        <div className="flex flex-col sm:flex-row sm:pb-2 items-center">
+          <div className="flex-shrink-0">
+            <Image
+              className=" rounded-md max-w-full max-h-auto"
+              src={img} // Image should be 1280 x 720
+              alt="Project 1 Image"
+              width={272}
+              height={153}
+            />
+          </div>
           <p className="px-2 text-center">{desc}</p>
         </div>
       </div>
