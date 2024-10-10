@@ -13,7 +13,7 @@ export default function RootLayout({
       <body className={`${inter.className} antialiased`}>
         <NavBar />
         <main className="py-[60px] bg-[#212121] min-h-screen">
-          <div className="container mx-auto max-w-[700px] px-3 pt-6">
+          <div className="container mx-auto max-w-[700px] px-6 pt-6">
             {children}
           </div>
         </main>
