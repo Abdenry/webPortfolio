@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main>
       {/* Hero Card w/Gif*/}
-      <div className="flex flex-col  px-6 text-white  items-center mb-10">
+      <div className="flex flex-col  text-white  items-center mb-10">
         <Image
           className="rounded-t-lg w-full"
           src={heroImage}
@@ -22,7 +22,7 @@ export default function Home() {
         </div>
       </div>
       {/* Detailed Info */}
-      <div className="text-white flex-col justify-between px-6 ">
+      <div className="text-white flex-col justify-between">
         {/* Who Am I? */}
         <div className="mb-10">
           <h1 className="font-extrabold border-b-2 border-[#333333] text-2xl mb-2">
@@ -62,12 +62,12 @@ export default function Home() {
             For a 3 month period during the end of my academic studies, I was
             provided the opportunity to work as a Mechatronics Engineering
             Intern with Gelomics Pty Ltd in Brisbane! This experience has
-            exposed me to the Biotech Industry with a focus on mechanical design
-            and testing and had taught me a lot in such a small time frame.
+            exposed me to the Biotech Industry with a focus primarily on
+            mechanical design and testing.
           </p>
           <p className="pt-2">
-            Now I am actively searching for a Graduate Program while also
-            continuing to create more projects to further my learning.
+            I am currently seeking a Graduate Program while also continuing to
+            create more projects to stimulate my learning.
           </p>
         </div>
       </div>
