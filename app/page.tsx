@@ -15,9 +15,8 @@ export default function Home() {
         />
         <div className="bg-[#333333] rounded-b-lg p-6 w-full ">
           <h1 className="text-center line-clamp-3">
-            {" "}
-            Hello, I'm a Mechatronics and Computer Science graduate from
-            Brisbane!{" "}
+            Hello, I&apos;m a Mechatronics and Computer Science graduate from
+            Brisbane!
           </h1>
         </div>
       </div>
@@ -32,7 +31,7 @@ export default function Home() {
             My name is Brayden Annan. I graduated from Queensland University of
             Technology (QUT) in 2024 with a Second Class Honours (Division A) in
             Mechatronic Engineering, and a Bachelor of Computer Science with
-            Disctinction.
+            Distinction.
           </p>
           <p className="pt-2">
             I enjoy the design process and ideation of projects then putting
