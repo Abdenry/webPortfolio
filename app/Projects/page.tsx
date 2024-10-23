@@ -29,6 +29,16 @@ export default function ProjectsPage() {
         external={true}
       />
 
+      {/* Project: This website */}
+      <ProjectCard
+        title="Portfolio Website"
+        link="https://github.com/Abdenry/webPortfolio"
+        img="/webPortfolio.png"
+        desc="This website was a project I undertaken to learn something new and make the train rides to and from QUT a little more exciting.
+                It is written with the Next.Js framework and hosted with Vercel."
+        external={true}
+      />
+
       {/* Project: Sample Collecting Robot */}
       <ProjectCard
         title="Sample Collecting Robot"
