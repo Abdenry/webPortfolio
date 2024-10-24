@@ -32,7 +32,7 @@ const ProjectCard: React.FC<CardProps> = ({
             <Image
               className=" rounded-md max-w-full max-h-auto"
               src={img} // Image should be 1280 x 720
-              alt="Project 1 Image"
+              alt="Project Image Missing"
               width={272}
               height={153}
             />
