@@ -22,18 +22,28 @@ export default function ProjectsPage() {
       <ProjectCard
         title="Tazer Cards"
         link="https://youtu.be/0fpzKOLWwhQ"
-        img="/tazerCards.png"
+        img="/projects/tazerCards/tazerCards.png"
         desc="I made a device that would convert theoretical damage taken in 
                 popular card games into tangible consequences. Achieved using the 
                 Arduino Nano, a custom health tracker written in python, and a modified TENS machine."
         external={true}
       />
 
+      {/* Project: RGBW Lighting */}
+      <ProjectCard
+        title="RGBW Lighting Controller"
+        link="/Projects/rgbwLights"
+        img="/projects/rgbwLights/rgbwLights.png"
+        desc="I made this simple lighting RGBW lighting controller to provide ample lighting to my work space. It was made in protest to cheaper products that offer
+                limited colour options and the more expensive products that require an app to control."
+        external={false}
+      />
+
       {/* Project: This website */}
       <ProjectCard
         title="Portfolio Website"
         link="https://github.com/Abdenry/webPortfolio"
-        img="/webPortfolio.png"
+        img="/projects/webPortfolio/webPortfolio.png"
         desc="This website was a project I undertaken to learn something new and make the train rides to and from QUT a little more exciting.
                 It is written with the Next.Js framework and hosted with Vercel."
         external={true}
@@ -43,7 +53,7 @@ export default function ProjectsPage() {
       <ProjectCard
         title="Sample Collecting Robot"
         link="https://youtu.be/Dr_o5N65tek?t=120"
-        img="/egb320Project.png"
+        img="/projects/egb320/egb320Project.png"
         desc='In 2022, I completed the EGB320: Mechatronics Design 2 unit and
                 built a prototype mars rover! The mission was to search, collect
                 and return "moon rocks" scattered around the environment.'
