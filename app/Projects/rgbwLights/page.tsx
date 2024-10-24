@@ -34,8 +34,8 @@ export default function rgbwLightPage() {
           through WiFi or BlueTooth. I am a firm believer that connecting
           devices to an internet connection (especially for tasks as trivial as
           changing light colours) should always be avoided. I also believe that
-          I shouldn't need to be reliant on a mobile phone to change the colours
-          of the lights as well.
+          I shouldn&apos;t need to be reliant on a mobile phone to change the
+          colours of the lights as well.
         </p>
         <p className="pb-4">
           My design for some simple LED lights uses analog signals to not only
